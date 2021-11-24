@@ -1,4 +1,4 @@
-package main
+package orderedmap
 
 type ListNode struct {
 	before *ListNode
