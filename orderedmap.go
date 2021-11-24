@@ -109,7 +109,7 @@ func (t OrderedMap) Del(k interface{}) {
 func (t *OrderedMap) Add(k interface{}, num int) bool {
 	v, ok := t.Get(k)
 	if !ok {
-		return false
+		return t.Set(k, num)
 	}
 	oriNum, ok := v.(int)
 	if !ok {
