@@ -1,4 +1,4 @@
-package orderedmap
+package orderedmap_test
 
 import (
 	//"fmt"
